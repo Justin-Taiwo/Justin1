@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.general {
+
+    height: 90vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(https://dailytrust.com/wp-content/uploads/2018/10/INDEPENDENCE-DAY.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 90px;
+    align-items: center;
+}
+
+.nav-right {
+    display: flex;
+    gap: 3rem;
+}
+.nav-right a{
+    text-decoration: none;
+    color: white;
+}
+
+.nav-right p {
+    font-weight: 600;
+}
+
+.nav-left h1 {
+    font-size: 22px;
+    font-weight: 800;
+}
+
+.celeb h1 {
+margin-top: 60px;
+text-align: center;
+padding: 20px 80px;
+font-size: 50px;
+
+}
+.celeb p{
+
+    text-align: center;
+    padding: 0px 50px;
+    font-size: 40px;
+}
+.nav-right p:hover{
+    color: rgb(49, 243, 49);
+}
+.ho {
+    border-bottom: 2px solid rgb(49, 243, 49);
+}
+.jss1{
+    display: flex;
+    flex-direction: column;
+    padding: 50px 100px;
+    gap: 3rem;
+    
+}
+.mirror{
+    color: green;
+    font-size: 22px;
+    text-align: center;
+}
+
+
+.image {
+    width: 300px;
+    height: 300px;
+    
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/b/bb/Nnamdi_Azikiwe_PC_%28cropped%29.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 6px;
+}
+
+.img1 {
+    background-image: url(https://www.blackpast.org/wp-content/uploads/prodimages/files/blackpast_images/Obafemi_Awolowo_July_21_1972_National_Portrait_Gallery_London_CC_BY-NC-ND_3.0.jpg);
+    background-size: cover;
+    background-position: center;
+    
+}
+.img2{
+    background-image: url(https://www.blackpast.org/wp-content/uploads/prodimages/files/Alhaji_Ahmadu_Bello.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.img3{
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/9/9f/Tafawa_Balewa_in_office_02.jpg);
+    background-size: cover;
+    background-position: center;
+
+
+}
+.img4{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJMig3iG_3XfJXVhaIyOluVF2mjcKK0x_rfw&s);
+    background-size: cover;
+    background-position: center;
+
+}
+.img5{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnJbqkXnvP1us31x2LRsglmP6aW-584hDYJw&s);
+    background-size: cover;
+    background-position: center;
+
+}
+.box h1 {
+    font-size: 30px;
+    margin-top: 8px;
+}
+
+.box button {
+    margin-top: 10px;
+    width: 130px;
+    height: 40px;
+    background-color: rgb(9, 228, 9);
+    color: white;
+    font-weight: 600;
+    border: none;
+}
+
+.line1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.line2 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
